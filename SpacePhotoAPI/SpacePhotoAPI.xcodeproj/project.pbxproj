@@ -14,6 +14,7 @@
 		3A2BB77025EBF8A1008CF4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2BB76F25EBF8A1008CF4FB /* Assets.xcassets */; };
 		3A2BB77325EBF8A1008CF4FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2BB77125EBF8A1008CF4FB /* LaunchScreen.storyboard */; };
 		3A2BB77C25EBFA73008CF4FB /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BB77B25EBFA73008CF4FB /* PhotoInfo.swift */; };
+		3A3879CB25EBFFEE0017E8F8 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3879CA25EBFFEE0017E8F8 /* URL+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3A2BB77225EBF8A1008CF4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A2BB77425EBF8A1008CF4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A2BB77B25EBFA73008CF4FB /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		3A3879CA25EBFFEE0017E8F8 /* URL+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3A2BB76A25EBF89E008CF4FB /* ViewController.swift */,
 				3A2BB76C25EBF89E008CF4FB /* Main.storyboard */,
 				3A2BB77B25EBFA73008CF4FB /* PhotoInfo.swift */,
+				3A3879CA25EBFFEE0017E8F8 /* URL+Helpers.swift */,
 				3A2BB76F25EBF8A1008CF4FB /* Assets.xcassets */,
 				3A2BB77125EBF8A1008CF4FB /* LaunchScreen.storyboard */,
 				3A2BB77425EBF8A1008CF4FB /* Info.plist */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A2BB77C25EBFA73008CF4FB /* PhotoInfo.swift in Sources */,
+				3A3879CB25EBFFEE0017E8F8 /* URL+Helpers.swift in Sources */,
 				3A2BB76B25EBF89E008CF4FB /* ViewController.swift in Sources */,
 				3A2BB76725EBF89E008CF4FB /* AppDelegate.swift in Sources */,
 				3A2BB76925EBF89E008CF4FB /* SceneDelegate.swift in Sources */,
