@@ -49,6 +49,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1ye-3K-7m1"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="kqd-lc-lzB" id="ba9-Nq-d3H"/>
+                        <outlet property="photoImageView" destination="2e2-nq-GkN" id="g3e-EE-NMt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
