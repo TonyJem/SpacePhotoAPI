@@ -20,16 +20,11 @@ struct PhotoInfo: Codable {
     
 }
 
-
-
-
-
 /*
 import Foundation
 import PlaygroundSupport
 
-var str = "🟢 Wraped into function:"
-print(str)
+TEMPLATE IS HERE:
 
 struct PhotoInfo: Codable {
     var title: String
