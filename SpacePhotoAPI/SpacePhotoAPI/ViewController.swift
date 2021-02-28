@@ -14,8 +14,10 @@ class ViewController: UIViewController {
         
         photoInfoController.fetchPhotoInfo { (photoInfo) in
             guard let photoInfo = photoInfo else { return }
-            self.title = photoInfo.title
-            self.descriptionLabel.text = photoInfo.description
+            DispatchQueue.main.async {
+                self.title = photoInfo.title
+                self.descriptionLabel.text = photoInfo.description
+            }
         }
     }
     
