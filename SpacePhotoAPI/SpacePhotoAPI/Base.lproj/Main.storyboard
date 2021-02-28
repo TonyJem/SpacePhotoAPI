@@ -39,17 +39,23 @@
                                     <constraint firstItem="2e2-nq-GkN" firstAttribute="width" secondItem="SO2-1N-hHZ" secondAttribute="width" id="dMC-4z-Xx2"/>
                                 </constraints>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="bVP-0z-Mgi">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="bVP-0z-Mgi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7uv-K0-Zuc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SO2-1N-hHZ" secondAttribute="trailing" constant="20" id="Ddx-mM-UKa"/>
+                            <constraint firstItem="bVP-0z-Mgi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PgO-N1-UOx"/>
                             <constraint firstItem="SO2-1N-hHZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cYT-Qt-fpJ"/>
                             <constraint firstItem="SO2-1N-hHZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lnR-TZ-HTx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1ye-3K-7m1"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="bVP-0z-Mgi" id="OQp-LA-xOm"/>
                         <outlet property="descriptionLabel" destination="kqd-lc-lzB" id="ba9-Nq-d3H"/>
                         <outlet property="photoImageView" destination="2e2-nq-GkN" id="g3e-EE-NMt"/>
                     </connections>

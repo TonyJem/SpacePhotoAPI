@@ -4,6 +4,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
     
     let photoInfoController = PhotoInfoController()
     
@@ -12,6 +14,7 @@ class ViewController: UIViewController {
         
         descriptionLabel.text = ""
         
+        activityIndicator.isHidden = false
         photoInfoController.fetchPhotoInfo { (photoInfo) in
             guard let photoInfo = photoInfo else { return }
             self.updateUI(with: photoInfo)
@@ -27,6 +30,7 @@ class ViewController: UIViewController {
                 self.title = photoInfo.title
                 self.photoImageView.image = image
                 self.descriptionLabel.text = photoInfo.description
+                self.activityIndicator.isHidden = true
             }
         }
         task.resume()
